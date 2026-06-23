@@ -1,6 +1,6 @@
 # Prischa Bajeli
 
-CS undergrad (AI & Data Science) @ MIT-WPU · 2× published researcher (IEEE, Springer) · building end-to-end ML and full-stack systems
+CS undergrad (AI & Data Science) @ MIT-WPU · 2× published researcher (IEEE, Springer) · Building end-to-end ML and full-stack systems
 
 <p align="left">
   <a href="https://linkedin.com/in/prischa-bajeli"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
