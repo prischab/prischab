@@ -1,18 +1,18 @@
 # Prischa Bajeli
 
-CS undergrad (AI & Data Science) @ MIT-WPU · 2× published researcher (IEEE, Springer) · Building end-to-end ML and full-stack systems
+CS undergrad (AI & Data Science) @ MIT-WPU · 2× published researcher (IEEE, Springer) · Building end-to-end ML, agentic AI, and full-stack systems
 
 <p align="left">
   <a href="https://linkedin.com/in/prischa-bajeli"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="https://prischab.github.io/"><img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
-  <a href="mailto:your-email@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="mailto:prischabajeli2k5@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
 
 ---
 
 ## About
 
-Third-year Computer Science (AI & Data Science) undergrad at MIT World Peace University, Pune. I build systems end to end — from hardware (Raspberry Pi IoT) to deployed ML pipelines and full-stack apps. Two peer-reviewed publications to date. Currently looking for an internship.
+Third-year Computer Science (AI & Data Science) undergrad at MIT World Peace University, Pune. I build systems end to end — from hardware (Raspberry Pi IoT) to deployed ML pipelines, agentic AI, and full-stack apps. Two peer-reviewed publications to date. Currently looking for an internship.
 
 ---
 
@@ -30,19 +30,31 @@ Prischa Bajeli, et al. · [[Paper]](https://link.springer.com/chapter/10.1007/97
 
 ## Projects
 
-### Tier 1 — Published & Production
+### Agentic AI & Applied ML
 | Project | Description | Stack |
 |---|---|---|
+| [Research-agent-Siora2k5](https://github.com/prischab/Research-agent-Siora2k5) | Agentic AI research assistant that autonomously selects and chains tools (web search, calculator, document RAG, image vision) for multi-step questions. Agent built **both from scratch and with LangGraph**; FastAPI backend, Next.js chat UI, 100% tool-selection eval. | Python, Claude API, LangGraph, FastAPI, Next.js |
+| [medguide-rag](https://github.com/prischab/medguide-rag) | Retrieval-augmented Q&A over medical guideline PDFs — semantic chunking, vector search, and grounded answers with source citations. | Python, ChromaDB, sentence-transformers, FastAPI |
 | [explainai](https://github.com/prischab/explainai) | Explainable AI for multi-label chest X-ray classification. DenseNet121 on NIH ChestX-Ray14 (112k images, 14 pathologies), patient-stratified splits, **0.83 macro-AUC**; FastAPI REST endpoint + GUI with Grad-CAM visualization. | Python, PyTorch, FastAPI |
+
+### MLOps & Data Science
+| Project | Description | Stack |
+|---|---|---|
+| [heart-disease-mlops](https://github.com/prischab/heart-disease-mlops) | End-to-end MLOps pipeline: trained classifier served via FastAPI, containerized with Docker, and wired to a GitHub Actions CI pipeline with automated tests. | Python, scikit-learn, Docker, FastAPI, GitHub Actions |
+| [credit-risk-analysis](https://github.com/prischab/credit-risk-analysis) | Credit default risk modeling on the "Give Me Some Credit" dataset (150K records) — EDA, feature engineering, and Logistic Regression vs. Random Forest (**ROC-AUC 0.84**) with a business-framed conclusion. | Python, Pandas, scikit-learn, Jupyter |
+| [Primetrade-ds-assignment](https://github.com/prischab/Primetrade-ds-assignment) | End-to-end analysis of Bitcoin Fear & Greed Index vs. Hyperliquid trader performance — EDA through modeling. | Python, Pandas, Jupyter |
+
+### Published Research Code
+| Project | Description | Stack |
+|---|---|---|
 | [iot-face-recognition-attendance-system](https://github.com/prischab/iot-face-recognition-attendance-system) | Edge-deployed LBPH face recognition attendance on Raspberry Pi 4. Published @ IEEE ETCOM 2025. | Python, OpenCV, SQLite |
 | [multivariate-energy-consumption-prediction](https://github.com/prischab/multivariate-energy-consumption-prediction) | RFE-LSTM time-series forecasting on UCI household power data. Published @ Springer ICTCS 2025. | Keras, TensorFlow, Jupyter |
-| [Job-AI](https://github.com/prischab/Job-AI) | AI-powered mobile career copilot — resume optimization, cover letters, application tracking, tailored cold outreach. | React Native, Expo, Express.js, PostgreSQL, Claude API |
-| [Archive-2k5](https://github.com/prischab/Archive-2k5) | Full-stack thrift e-commerce store with custom UPI QR verification checkout and Razorpay integration. | Next.js, Prisma, Clerk, Cloudinary |
 
-### Tier 2 — Substantial
+### Full-Stack
 | Project | Description | Stack |
 |---|---|---|
-| [Primetrade-ds-assignment](https://github.com/prischab/Primetrade-ds-assignment) | End-to-end analysis of Bitcoin Fear & Greed Index vs. Hyperliquid trader performance — EDA through modeling. | Python, Pandas, Jupyter |
+| [Job-AI](https://github.com/prischab/Job-AI) | AI-powered mobile career copilot — resume optimization, cover letters, application tracking, tailored cold outreach. | React Native, Expo, Express.js, PostgreSQL, Claude API |
+| [Archive-2k5](https://github.com/prischab/Archive-2k5) | Full-stack thrift e-commerce store with a dual checkout flow — custom UPI QR verification and Razorpay integration. | Next.js, Prisma, Clerk, Cloudinary |
 | [prischab.github.io](https://github.com/prischab/prischab.github.io) | Personal portfolio site, hand-built multi-page HTML/CSS, no frameworks. | HTML, CSS |
 
 ---
@@ -60,6 +72,7 @@ Prischa Bajeli, et al. · [[Paper]](https://link.springer.com/chapter/10.1007/97
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
 ![Keras](https://img.shields.io/badge/Keras-D00000?style=flat&logo=keras&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat&logo=langchain&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
